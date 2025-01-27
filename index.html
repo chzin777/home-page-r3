@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Início - R3 Suprimentos</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><span style="background-color: rgba(0, 0, 0, 0.705); padding-left: 30px; padding-right: 30px; border-radius: 25px;">Seja Bem-vindo</span></h1>
+						<p> <span style="background-color: rgb(0, 0, 0); padding-left: 30px; padding-right: 30px; border-radius: 25px;">Escolha um favorito abaixo ou utilize a barra de pesquisa!</span></p>
+						<form action="https://www.google.com/search" method="get">
+							<input class="search" type="text" name="q" placeholder="Pesquisar com o Google" autocomplete="off" required>
+							<button class="go" type="submit"><strong>Pesquisar</strong></button>
+						</form>
+						<nav>
+							<ul>
+								<li><a href="https://app.hubspot.com/login?hubs_signup-url=br.hubspot.com%2F&hubs_signup-cta=nav-utility-login&hubs_content=br.hubspot.com%2F&hubs_content-cta=nav-utility-login&uuid=anon4ee9669b3623ce26cbc0cff596b2" class="icon brands fa-hubspot"><span class="label">HubSpot</span></a></li>
+								<li><a href="https://app.govendas.com/#/auth/login" class="icon brands fa-golang"><span class="label">Go Vendas</span></a></li>
+								<li><a href="https://chat.chatshub.com.br/login" class="fa-regular fa-comments"><span class="label">ChatsHub</span></a></li>
+								<li><a href="https://sistema.rhgestor.com.br/login" class="fa-solid fa-sitemap"><span class="label">RH Gestor</span></a></li>
+								<li><a href="https://www.linkedin.com/feed/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+								<li><a href="https://outlook.office.com/mail/" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+								<li><a href="https://discord.gg/PdEHJtsEgy" class="icon brands fa-discord"><span class="label">Discord</span></a></li>
+								<li><a href="https://faq-r3.vercel.app" class="fa-solid fa-question"><span class="label">FAQ R3</span></a></li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; Created by: <a href="https://www.instagram.com/ch_zin_001/">Christofer</a></span>
+					</footer>
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() {
+				document.body.classList.remove('is-preload');
+
+				// Confetti animation covering the entire screen
+				const duration = 3 * 1000; // 5 seconds
+				const end = Date.now() + duration;
+
+				(function frame() {
+					confetti({
+						particleCount: 3,
+						startVelocity: 30,
+						spread: 360,
+						origin: {
+							x: Math.random(),
+							y: Math.random() - 0.2 // Slightly above the screen
+						},
+						colors: ['#92c647', '#12a0db', '#2e2456' ]
+					});
+
+					if (Date.now() < end) {
+						requestAnimationFrame(frame);
+					}
+				})();
+			};
+
+			window.ontouchmove = function() { return false; };
+			window.onorientationchange = function() { document.body.scrollTop = 0; };
+		</script>
+	</body>
+</html>
