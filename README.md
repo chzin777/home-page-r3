@@ -1,4 +1,6 @@
-<h1 align="center">🌐 Homepage Personalizada</h1>
+<h1 align="center">🌐 Homepage Personalizada</h1> 
+![Status](https://img.shields.io/badge/status-Concluído-brightgreen)
+![Versão](https://img.shields.io/badge/versão-2.0.1-blue)
 
 <p align="center">
   Este repositório contém uma homepage interativa e personalizável, desenvolvida com <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, e <b>Bootstrap 4</b>. O design é focado na praticidade e experiência do usuário, com recursos úteis e animações atraentes.
