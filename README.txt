@@ -1,64 +1,35 @@
-Aerial by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+<h1 align="center">🌐 Homepage Personalizada</h1>
 
+<p align="center">
+  Este repositório contém uma homepage interativa e personalizável, desenvolvida com <b>HTML</b>, <b>CSS</b>, <b>JavaScript</b>, e <b>Bootstrap 4</b>. O design é focado na praticidade e experiência do usuário, com recursos úteis e animações atraentes.
+</p>
 
-This is Aerial, a single page, single screen responsive site template. Real simple.
-Makes heavy use of CSS animation (something I've been messing with a lot lately).
-Should work well as a landing page that just directs folks to your stuff elsewhere
-on the www. Sass sources are also included, so if you've never used Sass and you're
-interested in giving it a try, head on over to sass-lang.com (and if not, you can
-safely delete the "sass/" folder).
+<h2>✨ Funcionalidades</h2>
+<ul>
+  <li><b>Favoritos Personalizados:</b> Adicione e organize seus links favoritos diretamente na página.</li>
+  <li><b>Campo de Pesquisa:</b> Pesquise qualquer coisa no Google sem sair da homepage.</li>
+  <li><b>Animações:</b> Efeitos suaves e transições para uma experiência visual agradável.</li>
+</ul>
 
-The scrolling mountainous background was derived from "Icefields" by Ryan Schroeder,
-a talented photographer from Vancouver who graciously released it on Unsplash under
-the CC0 license. Be sure to check out his other stuff over at flickr (link below)
-as well as all the other kickass CC0-licensed images at Unsplash (unsplash.com).
+<h2>📦 Tecnologias Utilizadas</h2>
+<ul>
+  <li><b>HTML:</b> Estruturação da página.</li>
+  <li><b>CSS:</b> Estilização personalizada para um design moderno.</li>
+  <li><b>JavaScript:</b> Funcionalidades dinâmicas, como pesquisa e interatividade.</li>
+  <li><b>Bootstrap 4:</b> Layout responsivo e componentes prontos.</li>
+</ul>
 
-Questions/comments/issues = just email or find me on Twitter. Have fun!
+<h2>📸 Prévia</h2>
+<p align="center">
+  <img src="caminho/para/screenshot.png" alt="Prévia da homepage" width="70%">
+</p>
 
-AJ
-aj@lkn.io | @ajlkn
+<h2>🚀 Como Usar</h2>
+<ol>
+  <li>Clone este repositório: <code>git clone https://github.com/seu-usuario/repo-homepage.git</code></li>
+  <li>Abra o arquivo <code>index.html</code> em qualquer navegador.</li>
+  <li>Personalize seus favoritos e aproveite a homepage!</li>
+</ol>
 
-
-The Scrolling Background:
-
-	This relies entirely on CSS to do its thing, which is cool, but that makes
-	changing it a bit weird/tricky at first. You can still use pretty much any image
-	you want, but for best results make sure yours is:
-
-	- Horizontally tileable.
-	- Wide and short.
-	- About 1500px wide.
-	- Fades to a solid color either at the top of bottom (which is used to fill
-	  the empty space above or below your image).
-
-	Now, there are two ways to use it: with CSS, or with Sass:
-
-	CSS:
-
-		Look for this line in css/style.css (line 108 as of this writing):
-
-			background: #348cb2 url("images/bg.jpg") bottom left;
-
-		and use it to set the page background color, URL, and placement of
-		your image. It should be as close to 1500px wide as you can get it.
-
-	Sass:
-
-		Set the value of $bg to the page background color, URL, and placement
-		of your image. Change $bg-width if your image is something other than
-		1500px wide.
-
-
-Credits:
-
-	Background Image:
-		Ryan Schroeder via Unsplash (unsplash.com - CC0 licensed)
-			"Icefields" (flickr.com/photos/ryanschroeder/11876741703)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+<h2>📄 Licença</h2>
+<p>Este projeto está licenciado sob a <b>MIT License</b>.</p>
