@@ -6,8 +6,8 @@
 
 <h2>✨ Funcionalidades</h2>
 <ul>
-  <li><b>Favoritos Personalizados:</b> Adicione e organize seus links favoritos diretamente na página.</li>
-  <li><b>Campo de Pesquisa:</b> Pesquise qualquer coisa no Google sem sair da homepage.</li>
+  <li><b>Favoritos Personalizados:</b> Favoritos pré alocados via HTML.</ali>
+  <li><b>Campo de Pesquisa:</b> Pesquise qualquer coisa no utilizando o Google como motor de pesquisa.</li>
   <li><b>Animações:</b> Efeitos suaves e transições para uma experiência visual agradável.</li>
 </ul>
 
@@ -21,12 +21,12 @@
 
 <h2>📸 Prévia</h2>
 <p align="center">
-  <img src="caminho/para/screenshot.png" alt="Prévia da homepage" width="70%">
+  <img src="https://i.postimg.cc/Jhsd3QQ5/Captura-de-tela-2025-01-28-114748.png" alt="Prévia da homepage" width="70%">
 </p>
 
 <h2>🚀 Como Usar</h2>
 <ol>
-  <li>Clone este repositório: <code>git clone https://github.com/seu-usuario/repo-homepage.git</code></li>
+  <li>Clone este repositório: <code>git clone https://github.com/chzin777/home-page-r3.git</code></li>
   <li>Abra o arquivo <code>index.html</code> em qualquer navegador.</li>
   <li>Personalize seus favoritos e aproveite a homepage!</li>
 </ol>
