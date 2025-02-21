@@ -13,6 +13,26 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 		<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+		<style>
+			#card-message {
+				position: fixed;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				background-color: white;
+				box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+				border-radius: 8px;
+				padding: 20px;
+				text-align: center;
+				z-index: 1000;
+				opacity: 0;
+				transition: opacity 0.5s ease;
+				color: black;
+				width: 700px;
+				font-size: 30px;
+				font-family: 'Source Sans Pro', sans-serif;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 		<div id="wrapper">
@@ -23,7 +43,14 @@
 				<!-- Header -->
 					<header id="header">
 						<h1><span style="background-color: rgba(0, 0, 0, 0.705); padding-left: 30px; padding-right: 30px; border-radius: 25px;">Seja Bem-vindo</span></h1>
-						<p> <span style="background-color: rgb(0, 0, 0); padding-left: 30px; padding-right: 30px; border-radius: 25px;">Escolha um favorito abaixo ou utilize a barra de pesquisa!</span></p>
+						<p> <span style="background-color: rgb(0, 0, 0); padding-left: 30px; padding-right: 30px; border-radius: 25px;">Confira abaixo como se conectar ao Winthor!</span></p>
+						
+						<video width="640" height="360" autoplay muted loop playsinline>
+							<source src="a.mp4" type="video/mp4">
+							Seu navegador não suporta o elemento de vídeo.
+						  </video>
+						  
+
 						<form action="https://www.google.com/search" method="get">
 							<input class="search" type="text" name="q" placeholder="Pesquisar com o Google" autocomplete="off" required>
 							<button class="go" type="submit"><strong>Pesquisar</strong></button>
@@ -49,9 +76,19 @@
 
 			</div>
 		</div>
+		<div id="card-message">
+			<h2>O carnaval está chegando!!!🎊🥳</h2>
+		</div>
 		<script>
 			window.onload = function() {
 				document.body.classList.remove('is-preload');
+
+				// Show the card message for 2-3 seconds
+				const card = document.getElementById('card-message');
+				card.style.opacity = 1;
+				setTimeout(() => {
+					card.style.opacity = 0;
+				}, 2500);
 
 				// Confetti animation covering the entire screen
 				const duration = 3 * 1000; // 5 seconds
