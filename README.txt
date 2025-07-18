@@ -1,64 +1,63 @@
-Aerial by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Página Inicial R3 Suprimentos
 
+<div align="center">
+  <img src="https://i.postimg.cc/RhJ1bcg1/Screenshot-2025-07-18-18-01-22.png" alt="Página inicial R3 Suprimentos" style="width: 70%; max-width: 800px;">
+</div>
 
-This is Aerial, a single page, single screen responsive site template. Real simple.
-Makes heavy use of CSS animation (something I've been messing with a lot lately).
-Should work well as a landing page that just directs folks to your stuff elsewhere
-on the www. Sass sources are also included, so if you've never used Sass and you're
-interested in giving it a try, head on over to sass-lang.com (and if not, you can
-safely delete the "sass/" folder).
+## Sobre o Projeto
 
-The scrolling mountainous background was derived from "Icefields" by Ryan Schroeder,
-a talented photographer from Vancouver who graciously released it on Unsplash under
-the CC0 license. Be sure to check out his other stuff over at flickr (link below)
-as well as all the other kickass CC0-licensed images at Unsplash (unsplash.com).
+Esta é a página inicial padrão utilizada nos navegadores de todos os computadores da **R3 Suprimentos**.  
+Seu objetivo é oferecer uma experiência de boas-vindas, além de facilitar o acesso rápido às principais ferramentas e sistemas utilizados na empresa.
 
-Questions/comments/issues = just email or find me on Twitter. Have fun!
+Nela, os colaboradores encontram:
 
-AJ
-aj@lkn.io | @ajlkn
+- Uma mensagem de boas-vindas.
+- Apresentação em vídeo sobre a consultoria personalizada.
+- Barra de pesquisa integrada com o Google.
+- Links e atalhos para os sistemas e plataformas essenciais do dia a dia.
+- Visual moderno e identidade visual alinhada à marca R3 Suprimentos.
 
+---
 
-The Scrolling Background:
+## Funcionalidades
 
-	This relies entirely on CSS to do its thing, which is cool, but that makes
-	changing it a bit weird/tricky at first. You can still use pretty much any image
-	you want, but for best results make sure yours is:
+- Mensagem de boas-vindas e vídeo institucional
+- Barra de pesquisa Google incorporada
+- Acesso rápido aos sistemas e plataformas mais usadas
+- Design responsivo e elegante
 
-	- Horizontally tileable.
-	- Wide and short.
-	- About 1500px wide.
-	- Fades to a solid color either at the top of bottom (which is used to fill
-	  the empty space above or below your image).
+---
 
-	Now, there are two ways to use it: with CSS, or with Sass:
+## Como usar
 
-	CSS:
+1. Clone ou baixe este repositório.
+2. Substitua a página inicial do navegador dos computadores da empresa pelo arquivo `index.html` deste projeto.
+3. Pronto! Todos os colaboradores terão acesso à página personalizada sempre que abrirem o navegador.
 
-		Look for this line in css/style.css (line 108 as of this writing):
+---
 
-			background: #348cb2 url("images/bg.jpg") bottom left;
+## Tecnologias Utilizadas
 
-		and use it to set the page background color, URL, and placement of
-		your image. It should be as close to 1500px wide as you can get it.
+- **HTML5**
+- **CSS3**
+- **Bootstrap5**
 
-	Sass:
+---
 
-		Set the value of $bg to the page background color, URL, and placement
-		of your image. Change $bg-width if your image is something other than
-		1500px wide.
+## Imagem de Apresentação
 
+![Screenshot do site](https://i.postimg.cc/RhJ1bcg1/Screenshot-2025-07-18-18-01-22.png)
 
-Credits:
+---
 
-	Background Image:
-		Ryan Schroeder via Unsplash (unsplash.com - CC0 licensed)
-			"Icefields" (flickr.com/photos/ryanschroeder/11876741703)
+## Licença
 
-	Icons:
-		Font Awesome (fontawesome.io)
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-	Other:
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+---
+
+## Contato
+
+Desenvolvido por **Christofer Henrique** para R3 Suprimentos.
+
+---
